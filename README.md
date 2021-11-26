@@ -34,7 +34,9 @@
     - 하드웨어를 통해 두영상의 align을 맞추었기 때문에 대부분의 경우 정확하게 align이 맞지만 차량에서 촬영한 데이터 셋이다보니, 특수한 경우(방지턱 넘기, 급작스런 커브 등)에서는 misalign문제가 발생하기도 함
     - 대부분의 경우 align이 맞기 때문에 Paired 데이터 셋이라는 가정하에 Paired 데이터 셋 전용 모델을 베이스라인으로 설정
 
-    - 데이터셋의 구성 (Train Dataset : 열화상 영상 총 2661장과 align이 맞는 RGB 영상 2661장 / Test Dataset : 열화상 영상 총 1276장)
+    - 데이터셋의 구성 
+        - Train Dataset : 열화상 영상 총 2661장과 align이 맞는 RGB 영상 2661장
+        - Test Dataset : 열화상 영상 총 1276장
 
 5. 참고자료
     - [[Paper](https://arxiv.org/pdf/1611.07004.pdf)] Image-to-Image Translation with Conditional Adversarial Networks
