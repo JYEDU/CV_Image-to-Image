@@ -49,12 +49,7 @@
     - [[Youtube](https://www.youtube.com/watch?v=z3HnZAOMbaQ&list=PL1xKqHsVFgvnM3zhBkbTZy5l_13x5R3Jq&index=13)] 컴비 텀프로젝트 소개영상_18011784_신정민
     - [[Paper](https://arxiv.org/abs/1703.10593)] Unpaired Image-to-Image Translation using Cycle-Consistent Adversarial Networks
 
-## 원복 과정에 대한 챌린지 참여 파일 : 
+## 원복 과정에 대한 챌린지 제출 파일
 1. eval.ai 리더보드상의 기록 캡쳐본
-
-
 2. 베이스라인을 찍기 위한 나의 repository
-
-
 3. 제출 과정에 대한 동영상 링크(베이스라인 알고리즘 설명 및 베이스라인을 찍기 위한 과정을 설명)
-
