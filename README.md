@@ -18,7 +18,7 @@
     - 열화상 영상은 적외선 파장들 중 가장 긴 파장대에 속하기 때문에 LWIR(Long Wave Infrared)라고 부르기도 함    
     - 열화상 카메라는 단어 그대로 물체에서 나오는 열을 포착하여 촬영하기에 빛이 없는 야간이나, 앞을 보기 힘든 기상환경(소나기, 폭설 등)에서도 강인하게 물체를 촬영할 수 있으며, 이러한 장점 덕분에 자율주행 차량이나 무인 지게차 등 다양한 실내 외 환경에서 사용될 수 있음
 
-![image](https://user-images.githubusercontent.com/87462769/143511778-5a9c5a77-ddd5-4911-8b09-e3a3284a53e2.png)
+![image](https://user-images.githubusercontent.com/87462769/143511778-5a9c5a77-ddd5-4911-8b09-e3a3284a53e2.png){: .center}
 
 3. 방법론 
     - 열화상 영상을 RGB 영상으로 변환하는 작업은 Image to Image Translation task에 속하기 때문에 해당 분야에서 일반적으로 사용하는 Generative Adversarial Network(GAN) 중 하나인 pix2pix 네트워크가 베이스라인으로 설정됨
@@ -39,7 +39,7 @@
         - Train Dataset : 열화상 영상 총 2661장과 align이 맞는 RGB 영상 2661장
         - Test Dataset : 열화상 영상 총 1276장
 
-![image](https://user-images.githubusercontent.com/87462769/143512190-1e0ba4bd-f01a-4537-af4d-c11eb3d74480.png)
+![image](https://user-images.githubusercontent.com/87462769/143512190-1e0ba4bd-f01a-4537-af4d-c11eb3d74480.png){: .center}
 
 
 5. 참고자료
